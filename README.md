@@ -75,7 +75,7 @@ As classes abaixo devem **herdar de `Bruxo`** e implementar a interface `Magia`:
 2. Crie a interface `Magia` com o método `lancarFeitico()`.
 3. Crie as classes `BruxoGrifinoria` e `BruxoSonserina` que herdam de `Bruxo` e implementam `Magia`.
 
-### Parte 2 – Organização do projeto (opcional para quem deseja avançar):
+### Parte 2 – Organização do projeto:
 4. Crie a estrutura de pacotes: `model` para as classes de domínio e `dto` para os objetos de transferência de dados.
 5. Mova as classes `Bruxo`, `Magia`, `BruxoGrifinoria` e `BruxoSonserina` para o pacote `model`.
 6. Crie os DTOs `BruxoRequestDTO` e `BruxoResponseDTO` no pacote `dto`, com atributos, construtores, getters e setters.
