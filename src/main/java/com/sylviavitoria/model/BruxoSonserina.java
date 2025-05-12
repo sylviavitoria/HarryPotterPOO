@@ -4,7 +4,7 @@ package com.sylviavitoria.model;
 public class BruxoSonserina extends Bruxo implements Magia {
 
     public BruxoSonserina(String nome, String casa) {
-        super(nome, casa);
+        super(nome, casa); // chama o construtor da superclasse Bruxo
     }
 
     @Override
