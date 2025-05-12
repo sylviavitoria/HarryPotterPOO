@@ -13,5 +13,23 @@ public abstract class Bruxo {
         System.out.println("Nome: " + nome);
         System.out.println("Casa: " + casa);
     }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getCasa() {
+        return casa;
+    }
+
+    public void setCasa(String casa) {
+        this.casa = casa;
+    }
+
+    
 }
 

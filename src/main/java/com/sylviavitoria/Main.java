@@ -12,5 +12,18 @@ public class Main {
 
         draco.mostrarInformacoes();
         draco.lancarFeitico();
+
+        System.out.println();
+
+        System.out.println(harry.getNome());
+        System.out.println(draco.getNome());
+
+        harry.setNome("Harry James Potter");
+        System.out.println("Novo nome de Harry:" + harry.getNome());
+        harry.mostrarInformacoes();
+        System.out.println();
+
+        draco.setNome("Draco Lucius Malfoy");
+        System.out.println("Novo nome de Harry:" + draco.getNome());
     }
 }
